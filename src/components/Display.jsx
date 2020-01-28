@@ -9,8 +9,8 @@ const Display = props => {
   );
 };
 
-const mapStateToProps = state =>{
+const mapStateToProps = state => ({
   text: state.text
-}
+})
 
 export default connect(mapStateToProps)(Display);

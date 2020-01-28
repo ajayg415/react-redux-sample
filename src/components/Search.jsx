@@ -12,7 +12,7 @@ const Search = props => {
     dispatch(updateSearch(ev.target.value))
   }
   return (
-    <input type='text' value={search} placeholder='Search Items' onChange={handleChange}/>
+    <input type='text' className='w-75 form-check form-control' value={search} placeholder='Search Items' onChange={handleChange}/>
   );
 };
 
